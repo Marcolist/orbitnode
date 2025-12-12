@@ -1,0 +1,26 @@
+{
+  "name": "OrbitNode",
+  "description": "Independent EigenLayer operator focused on reliable, conservative infrastructure. Bare metal deployment, high availability, and early participation in security-critical AVSs.",
+  "website": "https://github.com/Marcolist/orbitnode",
+  "logo": "https://raw.githubusercontent.com/Marcolist/orbitnode/main/OrbitNodeLogo/ICON256.png",
+  "telegram": "https://t.me/orbitnodeops",
+  "infrastructure": {
+    "hardware": "Dell PowerEdge, dual Intel Xeon (24 physical cores / 48 threads), 128 GB RAM, PCIe SSD",
+    "os": "Ubuntu 24.04 LTS",
+    "deployment": "Bare metal for consensus workloads, Docker for auxiliary services",
+    "monitoring": "Prometheus and Grafana with alerting",
+    "uptime_target": "99.9%"
+  },
+   "security": {
+    "key_management": "Offline key generation, encrypted backups",
+    "slashing_policy": "Conservative operation, no overcommit",
+    "incident_response": "Continuous monitoring with rapid response"
+  },
+  "experience": {
+    "background": [
+      "Solana-compatible L2 infrastructure",
+      "Cross-chain monitoring and watcher services"
+    ]
+  },
+  "operator_intent": "Early participation in EigenLayer AVSs with a focus on reliability, monitoring, and long-term support."
+}
